@@ -13,7 +13,7 @@
         <div id="status"></div>
     </div>
     <div id="info">
-        <div id="playing-label">Playing:</div>
+        <div id="playing-label"></div>
         <div id="playing"></div>
     </div>
 </div>
@@ -31,6 +31,7 @@
       $('#status')
         .css('background-color', 'green')
         .text('Online');
+      $('#playing-label').text('Playing:');
       $('playing').text(data['game']);
       $('info').show();
     }
