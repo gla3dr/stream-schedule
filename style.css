@@ -1,0 +1,9 @@
+#label {
+  float: left;
+  clear: both;
+}
+
+#status {
+  float: left;
+  display: inline-block;
+}
