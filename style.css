@@ -1,5 +1,6 @@
 #container {
-  clear: both;
+    clear: both;
+    margin-top: 2px;
 }
 
 #status, #label {
