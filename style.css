@@ -3,7 +3,7 @@
     margin-top: 2px;
 }
 
-#status, #label {
+#status, #label, #playing-label, #playing {
     display: inline-block;
 }
 
