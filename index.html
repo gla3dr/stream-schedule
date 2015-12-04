@@ -29,10 +29,10 @@
     else {
       //Online
       $('#status')
-        .css('background-color', 'green')
-        .text('Online');
+        .css('background-color', 'lime')
+        .text('Live');
       $('#playing-label').text('Playing:');
-      $('playing').text(data['game']);
+      $('#playing').text(data['stream']['game']);
       $('info').show();
     }
   });

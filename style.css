@@ -1,3 +1,7 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 #container {
     clear: both;
     margin-top: 2px;
@@ -8,7 +12,6 @@
 }
 
 #status {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 1px 3px 0px 3px;
     border-radius: 3px;
 }
