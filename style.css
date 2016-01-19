@@ -17,3 +17,7 @@ body {
     padding: 1px 3px 0px 3px;
     border-radius: 4px;
 }
+
+#calendarTitle, .date-top {
+    color: white;
+}
